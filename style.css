@@ -1,71 +1,69 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box; 
+    box-sizing: border-box; 
 }
 
 :root {
-    font-family: 'Arial', sans-serif; 
-    line-height: 1; 
+    font-family: 'Alice', sans-serif;
+    line-height: 1.5; 
     color: #573a37;
 }
 
 body {
-    background-image: url('wrong-path/bg.png'); 
-    background-size: contain; 
-    background-repeat: repeat; 
+    background-image: url('assets/bg.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 #page {
-    box-sizing: content-box; 
     width: 800px;
-    padding: 10px; 
-    background-color: #fff; 
-    border-radius: 0px; 
-    margin: 10px auto; 
+    padding: 10px;
+    background-color: #dbd5b2;
+    border-radius: 4px; 
+    margin: 10px auto;
 }
 
 img {
-    border-radius: 50%; 
+    border-radius: 0%;
 }
 
 main {
-    padding: 0px; 
+    padding: 20px;
 }
 
 section + section {
-    margin-top: 0px; 
+    margin-top: 20px; 
 }
 
 #about p + p {
-    margin-top: 24px; 
+    margin-top: 24px;
 }
 
 h1 {
-    line-height: 1.2; 
-    font-size: 60px; 
+    line-height: 1.2;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 12px; 
+    font-size: 1.5rem;
 }
 
-h1,
-h2 {
-    margin-bottom: 0px; 
-    color: #000; 
+h1, h2 {
+    margin-bottom: 10px;
+    color: #000;
 }
 
 ul {
-    padding-left: 0px; 
+    padding-left: 20px; 
 }
 
 footer {
-    color: #000; 
-    text-align: left; 
-    padding-bottom: 10px; 
+    color: #ffeec0;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 footer img {
-    vertical-align: top; 
+    vertical-align: middle; 
 }
